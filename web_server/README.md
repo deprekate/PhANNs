@@ -34,32 +34,31 @@ conda activate tf2_cpu
 ```
 
 from here you have a few options
+---
 
-### Run as a web server
+### Run using web server
 
-Run the server back-end
-
+Run the server back-end:
 ```
 python run_server.py
 ```
-in another terminal with the conda environment activated run the front end
-
+in another terminal with the conda environment activated run the front end:
 ```
 python run_PhANNs_site.py
 ```
-You should be able to see the server running at < 0.0.0.0:8080>.
+You should be able to see the server running, by opening [http://0.0.0.0:8080](http://localhost:8080) in your web browser. From there you can run the PhANNs as normal, using your browser.
 
-### Run on a single file
+### Run using command line (single file)
 
 ```
-pythons run_model.py filename.fasta
+python run_model.py filename.fasta
 ```
 
 This has to load the model in RAM each time it runs and it's not recommended for more than one file
 
-### Run as batch
+### Run using command line (multiple files)
 
-Put all the fasta files on the "uploads"  directory, then run 
+Put all the fasta files in the "uploads" directory, then run:
 
 ```
 python run_server_once.py
