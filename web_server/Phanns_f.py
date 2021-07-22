@@ -1,11 +1,11 @@
 import numpy
 import itertools
 from Bio.Seq import Seq
-from Bio.Alphabet import IUPAC
+#from Bio.Alphabet import IUPAC
 from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 from scipy import stats
-from Bio.Alphabet import IUPAC
+#from Bio.Alphabet import IUPAC
 import tensorflow as tf
 import pandas as pd
 import os
