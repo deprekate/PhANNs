@@ -46,7 +46,7 @@ in another terminal with the conda environment activated run the front end:
 ```
 python run_PhANNs_site.py
 ```
-You should be able to see the server running, by opening [http://0.0.0.0:8080](http://localhost:8080) in your web browser. From there you can run the PhANNs as normal, using your browser.
+You should be able to see the server running, by opening [http://0.0.0.0:8080](http://localhost:8080) in your web browser. From there you can run PhANNs as normal using your browser.
 
 ### Run using command line (single file)
 
